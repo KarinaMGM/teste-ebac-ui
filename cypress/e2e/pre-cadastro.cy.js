@@ -25,7 +25,7 @@ describe('Funcionalidade Pré-Cadastro', () => {
 
     });
 
-    it.only('Completar o pré-cadastro com sucesso - usando comandos customizados', () => {
+    it('Completar o pré-cadastro com sucesso - usando comandos customizados', () => {
         let emailFaker2 = faker.internet.email()
 
         cy.preCadastro(emailFaker2, 'teste@teste.com', 'Karina', 'Macedo')

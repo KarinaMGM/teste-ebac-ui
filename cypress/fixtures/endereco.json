@@ -1,0 +1,41 @@
+[
+    {
+        "nome": "Marina",
+        "sobrenome": "Macedo",
+        "empresa": "Google",
+        "endereco": "Rua iriquita",
+        "numero": "57",
+        "pais": "Brasil",
+        "cidade": "São Paulo",
+        "estado": "São Paulo",
+        "cep": "02238020",
+        "telefone": "11974556892",
+        "email": "mari@google.com"
+    },
+    {
+        "nome": "Manuela",
+        "sobrenome": "Macedo",
+        "empresa": "Google",
+        "endereco": "Rua iriquita",
+        "numero": "57",
+        "pais": "Brasil",
+        "cidade": "São Paulo",
+        "estado": "São Paulo",
+        "cep": "02238020",
+        "telefone": "11974556892",
+        "email": "manu@google.com"
+    },
+    {
+        "nome": "Milena",
+        "sobrenome": "Macedo",
+        "empresa": "Google",
+        "endereco": "Rua iriquita",
+        "numero": "57",
+        "pais": "Brasil",
+        "cidade": "São Paulo",
+        "estado": "São Paulo",
+        "cep": "02238020",
+        "telefone": "11974556892",
+        "email": "mimi@google.com"
+    }
+]
