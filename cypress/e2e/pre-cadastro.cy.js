@@ -24,4 +24,11 @@ describe('Funcionalidade Pré-Cadastro', () => {
         cy.get('.woocommerce-message').should('contain', 'Detalhes da conta modificados com sucesso.')
 
     });
+
+    it.only('Completar o pré-cadastro com sucesso - usando comandos customizados', () => {
+        let emailFaker2 = faker.internet.email()
+
+        cy.preCadastro(emailFaker2, 'teste@teste.com', 'Karina', 'Macedo')
+        cy.get('.woocommerce-message').should('contain', 'Detalhes da conta modificados com sucesso.')
+    });
 });

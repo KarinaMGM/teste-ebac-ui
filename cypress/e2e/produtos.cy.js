@@ -28,7 +28,10 @@ describe('Funcionalidade Página de Produtos', () => {
 
         cy.get('.dropdown-toggle > .mini-cart-items').should('contain', quantidade)
         cy.get('.woocommerce-message').should('contain', quantidade + ' × “Bruno Compete Hoodie” foram adicionados no seu carrinho.')
+    });
 
+    it('Deve add produtos ao carrinho - Usando comando customizado', () => {
+        cy.addProdutos('Bruno Compete Hoodie', 'S', 'Green', 3)     
     });
 
 });
